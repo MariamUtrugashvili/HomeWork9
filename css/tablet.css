@@ -1,0 +1,82 @@
+@media (max-width: 750px) {
+
+    /* header */
+    header {
+        padding-inline: 14px;
+    }
+
+    .HeaderDiv{
+      width: 100%;
+      display: flex;
+    }
+
+    /* section1 */
+    .FirstSection {
+        padding-inline: 14px;
+        height: 431px;
+    }
+
+    .FirstSectionTitle {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .FirstSectionText {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    /* section2 */
+
+    .SecondSection {
+        padding-block: 48px;
+    }
+
+    .SecondSectionTitle {
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 25px;
+    }
+
+    .cardsContainer {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 21px;
+    }
+
+    .card {
+        width: 345px;
+    }
+
+    /* section3 */
+    .ThirdSection {
+        padding-bottom: 48px;
+    }
+
+    .ThirdSectionTitle {
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+
+    .ThirdSectionDiv {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+     /* section 3 bottom images */
+     .bottom {
+        width: 100%;
+    }
+
+    .ThirdSectionDiv2,
+    .ThirdSectionDiv {
+        width: 375px;
+    }
+
+}
